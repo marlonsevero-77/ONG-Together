@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ONG Together</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header" role="banner">
+    <div class="container inner">
+      <a href="index.html" class="brand" aria-label="ONG Together home">
+        <div class="logo-mark">T</div>
+        <div>ONG <strong>Together</strong></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Principal">
+        <ul>
+          <li class="nav-item"><a href="index.html">Início</a></li>
+          <li class="nav-item"><a href="projetos.html">Projetos</a>
+            <div class="submenu" role="menu" aria-label="Projetos submenu">
+              <a href="projetos.html#destaque">Destaques</a>
+              <a href="projetos.html#novos-projetos">Novos</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="cadastro.html">Cadastro</a></li>
+          <li><a class="badge" href="cadastro.html">Participe</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-mobile">
+        <button class="hamburger" aria-label="Abrir menu" aria-controls="mobile-panel"
+          aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-panel" class="mobile-panel" role="dialog" aria-label="Menu móvel" aria-hidden="true">
+    <button class="hamburger" aria-label="Fechar menu">✕</button>
+    <nav>
+      <ul style="list-style:none;padding:16px 0;display:flex;flex-direction:column;gap:8px">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero" role="region" aria-label="Destaque">
+      <div class="container">
+        <h1>Transformando comunidades com sustentabilidade</h1>
+        <p>ONG Together conecta recursos e voluntariado para impactos duradouros.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="container mt-24" role="region" aria-label="Quem somos">
+      <div class="grid">
+        <div class="col-8">
+          <h2>Quem somos</h2>
+          <p>Organização dedicada a promover educação ambiental, segurança alimentar e inclusão socioeconômica.</p>
+        </div>
+        <div class="col-4">
+          <div class="card p-16" aria-label="Contato rápido">
+            <div class="badge">Contato</div>
+            <p class="field-help mt-8">contato@ongtogether.org</p>
+            <p class="field-help">(11) 99999-9999</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destaque" class="container mt-24" role="region" aria-label="Projetos em destaque">
+      <h2>Projetos em destaque</h2>
+      <div class="grid mt-16">
+        <div class="col-4">
+          <div class="card"><img src="img/Cidades-Sustentaveis-e-Inteligentes-1-e1748519049466-560x416.jpg"
+              alt="Educação Verde"><span class="tag">Educação</span>
+            <h3>Educação Verde</h3>
+            <p>Capacitação ambiental para jovens em áreas urbanas.</p>
+            <div><a class="btn" href="projetos.html">Saiba mais</a></div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card"><img src="img/meioambienteSolid.jpg" alt="Horta Comunitária"><span
+              class="tag">Alimentação</span>
+            <h3>Horta Comunitária</h3>
+            <p>Redução de insegurança alimentar através da agricultura urbana.</p>
+            <div><a class="btn" href="projetos.html">Saiba mais</a></div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card"><img src="img/clinicaMovel.jpg" alt="Clínica Móvel"><span class="tag">Saúde</span>
+            <h3>Clínica Móvel</h3>
+            <p>Atendimento básico de saúde e prevenção em comunidades isoladas.</p>
+            <div><a class="btn" href="projetos.html">Saiba mais</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-24">
+    <div class="container text-center p-16">
+      <p>&copy; 2025 ONG Together</p>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal">
+      <h3>Obrigado!</h3>
+      <p>Recebemos seu cadastro e entraremos em contato.</p>
+      <div style="text-align:right;margin-top:12px"><button data-modal-close class="btn">Fechar</button></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projetos - ONG Together</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container inner">
+      <a href="index.html" class="brand">
+        <div class="logo-mark">T</div>
+        <div>ONG <strong>Together</strong></div>
+      </a>
+      <nav class="nav-desktop" aria-label="Principal">
+        <ul>
+          <li class="nav-item"><a href="index.html">Início</a></li>
+          <li class="nav-item"><a href="projetos.html" class="ativo">Projetos</a></li>
+          <li class="nav-item"><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+      <div class="nav-mobile"><button class="hamburger" aria-label="Abrir menu">&#9776;</button></div>
+    </div>
+  </header>
+
+  <section class="hero hero-projetos">
+    <div class="container">
+      <h1>Nossos Projetos</h1>
+      <p>Conheça iniciativas de impacto social e ambiental.</p>
+    </div>
+  </section>
+
+  <main class="container mt-24">
+    <section id="projetos-list" role="region" aria-label="Lista de projetos">
+      <h2>Lista de Projetos</h2>
+      <div class="grid mt-16">
+        <div class="col-4">
+          <article class="card"><img src="img/educaSOlidaria.jpg" alt="Projeto 1"><span class="tag">Educação</span>
+            <h3>Educação Verde</h3>
+            <p>Projeto de educação ambiental.</p>
+            <div class="mt-8"><button class="btn" data-modal-open>Participar</button></div>
+          </article>
+        </div>
+        <div class="col-4">
+          <article class="card"><img src="img/alimentoSolid.jpg" alt="Projeto 2"><span class="tag">Alimentação</span>
+            <h3>Horta Comunitária</h3>
+            <p>Projeto de segurança alimentar.</p>
+            <div class="mt-8"><button class="btn" data-modal-open>Participar</button></div>
+          </article>
+        </div>
+        <div class="col-4">
+          <article class="card"><img src="img/saudeSolid.jpg" alt="Projeto 3"><span class="tag">Saúde</span>
+            <h3>Clínica Móvel</h3>
+            <p>Projeto de saúde comunitária.</p>
+            <div class="mt-8"><button class="btn" data-modal-open>Participar</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-24">
+    <div class="container text-center p-16">
+      <p>&copy; 2025 ONG Together</p>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal">
+      <h3>Obrigado!</h3>
+      <p>Obrigado por se interessar — entraremos em contato.</p>
+      <div style="text-align:right;margin-top:12px"><button data-modal-close class="btn">Fechar</button></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
