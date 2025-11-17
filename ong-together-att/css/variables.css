@@ -1,0 +1,37 @@
+
+:root{
+  /* Paleta (8 cores) - sustentável, clara e impactante */
+  --white: #ffffff;
+  --ivory: #f7f5ee;
+  --sand: #e9dec6;
+  --green-900: #063a22;
+  --green-700: #0f6b3a;
+  --green-500: #2fa36a;
+  --green-300: #9be1b0;
+  --gold: #c9a349;
+  --muted: #6b6b6b;
+
+  /* Tipografia (5+ tamanhos) */
+  --fs-xxl: 48px;
+  --fs-xl: 32px;
+  --fs-lg: 24px;
+  --fs-md: 18px;
+  --fs-sm: 14px;
+  --fs-xs: 12px;
+
+  /* Espaçamento modular (8px scale) */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* Grid */
+  --container-max: 1200px;
+  --gutter: 16px;
+
+  /* Transitions */
+  --ease: 0.28s ease;
+  --shadow: 0 8px 24px rgba(15,20,10,0.08);
+}

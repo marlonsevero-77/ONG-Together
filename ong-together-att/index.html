@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ONG Together</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header" role="banner">
+    <div class="container inner">
+
+      <a href="#/" class="brand" aria-label="ONG Together home">
+        <div class="logo-mark">T</div>
+        <div>ONG <strong>Together</strong></div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Principal">
+        <ul>
+          <li class="nav-item"><a href="#/">Início</a></li>
+          <li class="nav-item"><a href="#/projetos">Projetos</a></li>
+          <li class="nav-item"><a href="#/cadastro">Cadastro</a></li>
+          <li><a class="badge" href="#/cadastro">Participe</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-mobile">
+        <button class="hamburger" aria-label="Abrir menu" aria-controls="mobile-panel"
+          aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobile-panel" class="mobile-panel" role="dialog" aria-label="Menu móvel" aria-hidden="true">
+    <button class="hamburger" aria-label="Fechar menu">✕</button>
+    <nav>
+      <ul style="list-style:none;padding:16px 0;display:flex;flex-direction:column;gap:8px">
+        <li><a href="#/">Início</a></li>
+        <li><a href="#/projetos">Projetos</a></li>
+        <li><a href="#/cadastro">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- SPA -->
+  <main id="app"></main>
+
+  <footer class="mt-24">
+    <div class="container text-center p-16">
+      <p>&copy; 2025 ONG Together</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
+
+  <script src="js/components/home.js"></script>
+  <script src="js/components/projetos.js"></script>
+  <script src="js/components/cadastro.js"></script>
+  
+  <script src="js/scripts.js"></script>
+  <script src="js/router.js"></script>
+
+</body>
+
+</html>
